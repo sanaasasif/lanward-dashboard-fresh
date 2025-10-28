@@ -1,0 +1,61 @@
+// This file contains sample farm/field data for the Lanward dashboard
+
+export const fieldData = [
+  {
+    id: 1,
+    lastName: "Johnson",
+    firstName: "Sarah",
+    clientId: "CL-001",
+    clientHubspotId: "HS-12345",
+    fieldName: "North Field",
+    fieldId: "FLD-001",
+    state: "Illinois",
+    county: "Champaign",
+    acres: 250,
+    cropYear: 2024,
+    ciScore: 45.2,
+    date: "2024-03-15",
+    productApplied: "Nitrogen Fertilizer",
+    rate: 150,
+    unit: "lbs/acre",
+    notes: "Spring application"
+  },
+  {
+    id: 2,
+    lastName: "Martinez",
+    firstName: "Carlos",
+    clientId: "CL-002",
+    clientHubspotId: "HS-12346",
+    fieldName: "South Valley",
+    fieldId: "FLD-002",
+    state: "Iowa",
+    county: "Story",
+    acres: 180,
+    cropYear: 2024,
+    ciScore: 38.7,
+    date: "2024-04-02",
+    productApplied: "Cover Crop Seeds",
+    rate: 40,
+    unit: "lbs/acre",
+    notes: "No-till practice"
+  },
+  {
+    id: 3,
+    lastName: "Chen",
+    firstName: "Wei",
+    clientId: "CL-003",
+    clientHubspotId: "HS-12347",
+    fieldName: "East Ridge",
+    fieldId: "FLD-003",
+    state: "Indiana",
+    county: "Tippecanoe",
+    acres: 320,
+    cropYear: 2024,
+    ciScore: 52.1,
+    date: "2024-03-28",
+    productApplied: "Organic Compost",
+    rate: 2,
+    unit: "tons/acre",
+    notes: "Organic certification pending"
+  }
+];
